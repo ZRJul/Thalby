@@ -17,8 +17,16 @@ header {
     display: flex;
 }
 
+.d-blocK{
+    display: block;
+}
+
 .justify-between {
     justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
 }
 
 .align-centre{
@@ -112,10 +120,104 @@ header .logo {
     top: 0;
 }
 
-.people {
-    background: rgba(204, 204, 204, 0.3);
+.guides {
+    padding-top: 60px;
+    padding-bottom: 240px;
+}
+
+.guides_text {
+    max-width: 1064px;
+    margin: auto;
+    text-align: center;
+}
+
+.guides_text h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.guides_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.guides_text h3:first-of-type {
+    padding-bottom: 27px;
+}
+.guides_text h3:last-of-type {
+    padding-bottom: 52px;
+}
+
+.guides_text p:first-of-type{
+    max-width: 632px;
+    padding-bottom: 47px;
+    margin: auto;
+}
+.guides_text p:last-of-type{
+    padding-bottom: 88px;
+}
+
+.img_cont{
+    max-width: 314px;
+    text-align: center;
+}
+.guides_img h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    max-width: 155px;
+    margin: auto;
+    padding-bottom: 17px;
+}
+
+.guides_img p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.guides_img a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+.pad1{
+    padding-bottom: 27px;
+}
+.pad2{
+    padding-bottom: 20px;
+}
+.pad3{
+    padding-bottom: 19px;
+}
+
+.padding {
     padding-top: 76px;
     padding-bottom: 51px;
+}
+.people {
+    background: rgba(204, 204, 204, 0.3);
 }
 
 .people .for_img {
@@ -123,12 +225,242 @@ header .logo {
     margin-right: 50px;
 }
 
-.people .for_img img {
-    width: 100%;
-    display: block;
-}
-
 .people .description {
     max-width: 498px;
 }
+
+.description h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 31px;
+}
+
+.description p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.description a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.culture {
+    background: rgba(204, 204, 204, 0.6);
+}
+
+
+.culture .description{
+    text-align: right;
+    margin-right: 50px;
+    max-width: 513px;
+}
+
+.culture .description p {
+    padding-bottom: 31px;
+}
+
+.culture .for_img {
+    max-width: 385px;
+}
+
+.power{
+    background: rgba(204, 204, 204, 0.3);
+}
+
+.power .for_img{
+    max-width: 385px;
+    margin-right: 50px;
+}
+
+.features{
+    padding-top: 190px;
+    padding-bottom: 290px;
+}
+
+.features_cont{
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+
+.features_cont h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    padding-bottom: 69px;
+}
+
+.circle_cont{
+    max-width: 1088px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-bottom: 52px;
+}
+
+.general{
+    width: 338px;
+    padding-bottom: 111px;
+}
+
+.circle_cont p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.circle1 p:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #21F7EC;
+    border-radius: 35px;
+    position: relative;
+    margin-bottom: 26px;
+    margin-left: 134px;
+}
+
+.circle2 p:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #33D3BC;
+    border-radius: 35px;
+    position: relative;
+    margin-bottom: 26px;
+    margin-left: 134px;
+}
+
+.circle3 p:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #18A5C6;
+    border-radius: 35px;
+    position: relative;
+    margin-bottom: 26px;
+    margin-left: 134px;
+}
+
+.circle4 p:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #D38F62;
+    border-radius: 35px;
+    position: relative;
+    margin-bottom: 26px;
+    margin-left: 134px;
+}
+
+.circle5 p:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #F94C43;
+    border-radius: 35px;
+    position: relative;
+    margin-bottom: 26px;
+    margin-left: 134px;
+}
+.circle6 p:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #D399FF;
+    border-radius: 35px;
+    position: relative;
+    margin-bottom: 26px;
+    margin-left: 134px;
+}
+
+.features_cont h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.features_text{
+    max-width: 705px;
+    margin: auto;
+}
+
+.quote{
+    background: #F0F0F0;
+    padding-top: 198px;
+    padding-bottom: 52px;
+}
+
+.quote_text{
+    max-width: 288px;
+    text-align: center;
+    position: relative;
+}
+
+.quote_text h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.quote_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+    padding-bottom: 44px;
+}
+
+.quote_text a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.quote_text img{
+    position: absolute;
+    right: 6px;
+    bottom: 265px;
+}
+
+
 
