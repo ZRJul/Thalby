@@ -1,0 +1,320 @@
+@media screen and (max-width: 320px) {
+
+
+    .main_banner{
+        padding: 30px 0;
+    }
+    .main_banner img {
+        position: relative;
+        top: 10px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .main_banner h1 {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 32px;
+    }
+    .main_banner p {
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 18px;
+    }
+    .main_banner a {
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 4px 15px;
+    }
+    .guides {
+        padding: 30px 15px 70px 15px;
+    }
+    .guides_text h3 {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .guides_text h3:first-of-type {
+        padding-bottom: 16px;
+    }
+    .guides_text h3:last-of-type {
+        padding-bottom: 30px;
+    }
+    .guides_text p {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .guides_text p:first-of-type {
+        padding-bottom: 28px;
+    }
+    .guides_text p:last-of-type {
+        padding-bottom: 35px;
+    }
+    .img_cont{
+        max-width: 214px;
+    }
+    .owl-carousel .img_cont{
+        margin-left: 28px;
+    }
+    .guides_img h4 {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 10px;
+        max-width: 100px;
+        padding-bottom: 10px;
+    }
+
+    .guides_img p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .guides_img a {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 10px;
+        padding-bottom: 0;
+    }
+    .owl-nav .owl-prev{
+        left: 20px;
+        top: 25%;
+    }
+    .owl-nav .owl-prev:before {
+        font-weight: 700;
+        font-size: 25px;
+        color: black;
+    }
+    .people .for_img img, .power .for_img img{
+        width: 100%;
+    }
+    .padding {
+        padding-top: 56px;
+        padding-bottom: 31px;
+    }
+    .people .for_img, .power .for_img {
+        max-width: 285px;
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .people .description{
+        text-align: left;
+        margin-left: 15px;
+    }
+    .description h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        padding-bottom: 21px;
+    }
+    .description p {
+        font-size: 18px;
+        line-height: 21px;
+        padding-bottom: 30px;
+    }
+    .description a {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .culture .for_img {
+        max-width: 285px;
+        order: 1;
+        padding-bottom: 20px;
+    }
+    .culture .description{
+        order: 2;
+        margin-right: 15px;
+    }
+    .culture .for_img img{
+        width: 100%;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+    .power .description{
+        text-align: left;
+        margin-left: 15px;
+    }
+    .features{
+        padding-top: 90px;
+        padding-bottom: 190px;
+    }
+    .features_cont h3 {
+        font-size: 18px;
+        line-height: 21px;
+        padding-bottom: 49px;
+    }
+
+    .general{
+        width: 150px;
+        padding-bottom: 60px;
+    }
+    .circle_cont{
+        justify-content: center;
+        padding-bottom: 32px;
+    }
+    .circle_cont p {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .circle1 p:before, .circle2 p:before, .circle3 p:before, .circle4 p:before, .circle5 p:before, .circle6 p:before{
+        width: 45px;
+        height: 45px;
+        margin-bottom: 20px;
+        margin-left: 52px;
+    }
+    .features_cont h2 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        padding: 0 10px;
+    }
+    .quote_text:last-of-type, .quote_text:nth-child(2){
+        margin-top: 0;
+        padding-top: 42px;
+    }
+    .quote_text{
+        max-width: 220px;
+        margin-left: 40px;
+        margin-top: -150px;
+
+    }
+    .quote_text h4 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .quote_text p {
+        font-size: 14px;
+        line-height: 15px;
+        padding-bottom: 24px;
+    }
+
+    .quote_text p span {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .quote_text a {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .form {
+        padding-top: 49px;
+        padding-bottom: 58px;
+    }
+    .form_text h3 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 21px;
+    }
+    .form_text p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 15px;
+        padding-bottom: 26px;
+    }
+    .name{
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    .name input{
+        margin-bottom: 18px;
+        height: 30px;
+    }
+
+    .email input{
+        height: 30px;
+        width: 200px;
+    }
+
+    .name input:first-of-type {
+        margin-right: 0;
+    }
+
+    .form_cont {
+        max-width: 280px;
+        padding-bottom: 0;
+    }
+
+    .form_cont button {
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .footer_logo {
+        padding-bottom: 30px;
+    }
+
+    .about, .contacts {
+        width: 150px;
+    }
+
+    .footer_cont {
+        justify-content: center;
+
+    }
+    .about ul {
+        padding-left: 5px;
+    }
+
+    .contacts ul{
+        padding-left: 0;
+        text-align: end;
+        padding-right: 5px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .container{
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .people .d-flex{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+    nav{
+        display: none;
+    }
+    header .logo {
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+

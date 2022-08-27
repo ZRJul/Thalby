@@ -263,7 +263,6 @@ header .logo {
     background: rgba(204, 204, 204, 0.6);
 }
 
-
 .culture .description{
     text-align: right;
     margin-right: 50px;
@@ -280,6 +279,10 @@ header .logo {
 
 .power{
     background: rgba(204, 204, 204, 0.3);
+}
+
+.power .description{
+    max-width: 530px;
 }
 
 .power .for_img{
@@ -415,14 +418,13 @@ header .logo {
 
 .quote{
     background: #F0F0F0;
-    padding-top: 198px;
     padding-bottom: 52px;
 }
 
 .quote_text{
     max-width: 288px;
     text-align: center;
-    position: relative;
+    margin-top: -188px;
 }
 
 .quote_text h4{
@@ -434,6 +436,7 @@ header .logo {
     letter-spacing: 0.6px;
     color: #000000;
     padding-bottom: 40px;
+    padding-top: 35px;
 }
 
 .quote_text p{
@@ -444,6 +447,12 @@ header .logo {
     line-height: 22px;
     color: #000000;
     padding-bottom: 44px;
+}
+
+.quote_text p span{
+    font-size: 20px;
+    line-height: 23px;
+    display: block;
 }
 
 .quote_text a{
@@ -457,9 +466,8 @@ header .logo {
 }
 
 .quote_text img{
-    position: absolute;
-    right: 6px;
-    bottom: 265px;
+    display: block;
+    width: 100%;
 }
 
 .form{
@@ -524,7 +532,7 @@ header .logo {
     border: 1px solid #000000;
     padding-left: 8px;
 }
-.form_cont button{
+.form_cont button {
     width: 115px;
     height: 33px;
     background: #000000;
@@ -539,11 +547,99 @@ header .logo {
     color: #FFFFFF;
 }
 
+footer{
+    padding-top: 51px;
+    padding-bottom: 45px;
+    background: #020202;
+}
+
+.footer_cont{
+    margin: auto;
+    max-width: 1144px;
+}
+
+.footer_logo{
+    max-width: 487px;
+}
+
+.logo_img{
+    margin-left: 25px;
+}
+
+.icon{
+    max-width: 115px;
+    margin-left: 29px;
+    padding-top: 45px;
+}
+
+footer .icon ul{
+    justify-content: space-between;
+}
+
+.navigation {
+    max-width: 430px;
+}
+
+.about, .contacts{
+    width: 215px;
+    text-decoration: none;
+}
+
+.about ul, .contacts ul{
+    list-style: none;
+    padding-left: 25px;
+}
+
+.about li, .contacts li {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+}
+
+.contacts li:first-of-type, .about li:first-of-type{
+    line-height: 23px;
+    padding-bottom: 36px;
+}
+
+footer p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-align: center;
+}
 
 
 
 
 
+
+
+
+
+.owl-carousel .img_cont{
+    margin: auto;
+
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -46px;
+    top: 35%;
+}
+.owl-nav .owl-prev:before{
+    content: "\f053";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+}
 
 
 

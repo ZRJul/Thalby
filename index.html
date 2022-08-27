@@ -9,7 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
 
 </head>
 <body>
@@ -70,7 +75,26 @@
         <p>Available as ebooks here and on Amazon.</p>
         <h3>Our best sellers</h3>
     </div>
-    <div class="guides_img container d-flex justify-between">
+
+    <div class="guides_img container d-flex justify-between owl-carousel">
+        <div class="img_cont">
+            <img src="image/best1.jpg" alt="img" class="pad1">
+            <h4>Thalby Guide to French Culture and Heritage</h4>
+            <p>USD 6.99</p>
+            <a href="#">Add to cart</a>
+        </div>
+        <div class="img_cont">
+            <img src="image/best2.jpg" alt="img" class="pad2">
+            <h4>Thalby Guide to French People and Society</h4>
+            <p>USD 6.99</p>
+            <a href="#">Add to cart</a>
+        </div>
+        <div class="img_cont">
+            <img src="image/best3.jpg" alt="img" class="pad3">
+            <h4>Thalby Guide to German Culture and Heritage</h4>
+            <p>USD 6.99</p>
+            <a href="#">Add to cart</a>
+        </div>
         <div class="img_cont">
             <img src="image/best1.jpg" alt="img" class="pad1">
             <h4>Thalby Guide to French Culture and Heritage</h4>
@@ -106,7 +130,7 @@
 </section>
 
 <section class="culture padding">
-    <div class="container d-flex align-centre justify-end">
+    <div class="container d-flex align-centre justify-end wrap">
         <div class="description">
             <h3>Culture and Heritage</h3>
             <p>As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.</p>
@@ -119,7 +143,7 @@
 </section>
 
 <section class="power padding">
-    <div class="container d-flex align-centre">
+    <div class="container d-flex align-centre wrap">
         <div class="for_img">
             <img src="image/power.png" alt="img" class="d-blocK">
         </div>
@@ -161,55 +185,104 @@
 </section>
 
 <section class="quote">
-    <div class="container d-flex justify-between">
+    <div class="container d-flex justify-between wrap">
         <div class="quote_text">
             <img src="image/quote1.png" alt="img">
             <h4>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</h4>
-            <p>Camille Muller,<br> Landscape Designer, France</p>
+            <p>Camille Muller,<span>Landscape Designer, France</span> </p>
             <a href="#">Discover</a>
         </div>
         <div class="quote_text">
             <img src="image/quote2.png" alt="img">
             <h4>"Magic is not magic in<br> the sense that I can just wish for anything."</h4>
-            <p>Sonia Kowalewski,<br> Witch, Germany</p>
+            <p>Sonia Kowalewski,<span>Witch, Germany</span></p>
             <a href="#">Discover</a>
         </div>
         <div class="quote_text">
             <img src="image/quote3.png" alt="img">
             <h4>"I was eight years old<br> when I entered my first competition. I won it."</h4>
-            <p>Lilly Stoephasius,<br> Skateboarder, Germany</p>
+            <p>Lilly Stoephasius,<span>Skateboarder, Germany</span></p>
             <a href="#">Discover</a>
         </div>
     </div>
 </section>
 
 <section class="form">
-
         <div class="form_text">
             <h3>Keep in touch</h3>
             <p>Get our travel advice, global views and travel freebies in your inbox</p>
         </div>
 
         <form action="#" method="post" class="form_cont">
-            <div class="name d-flex">
-                <input type="text" name="first_name" placeholder="First Name">
-
-                <input type="text" name="second_name" placeholder="Last Name">
+            <div class="name d-flex wrap">
+                <label for="first_name"></label>
+                <input id="first_name" type="text" name="first_name" placeholder="First Name">
+                <label for="second_name"></label>
+                <input id="second_name" type="text" name="second_name" placeholder="Last Name">
             </div>
             <div class="email">
-                <input type="email" name="email" placeholder="Email">
+                <label for="email"></label>
+                <input id="email" type="email" name="email" placeholder="Email">
             </div>
             <button type="submit">
               Subscribe
             </button>
         </form>
-
-
-
-
 </section>
 
+<footer>
+    <div class="footer_cont d-flex justify-between wrap">
+        <div class="footer_logo">
+            <a href="#" class="logo_img">
+                <img src="image/footer-logo.svg" alt="logo">
+            </a>
+            <div class="icon">
+                <ul class="d-flex align-centre">
+                    <li>
+                        <a href="#">
+                            <img src="image/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/footer-insta.svg" alt="inst">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="image/twitter.svg" alt="twitter">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="navigation d-flex justify-between">
+            <div class="about">
+                <ul>
+                    <li>ABOUT</li>
+                    <li>About Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Write for Us</li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <ul>
+                    <li>CONTACT</li>
+                    <li>Email hi@thalby.com</li>
+                    <li>Help</li>
+                </ul>
 
+            </div>
+        </div>
+    </div>
+    <p>Thalby LLC © 2021</p>
+</footer>
+
+
+
+<script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 </html>
