@@ -1,5 +1,25 @@
 $(document).ready(function(){
 
+    $( function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+                effect: "none",
+                duration: 1000
+            },
+            hide: {
+                effect: "none",
+                duration: 1000
+            }
+        });
+
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
+
+
+
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:0,
