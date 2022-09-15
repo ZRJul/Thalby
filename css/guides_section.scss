@@ -1,0 +1,235 @@
+@import "variables";
+
+.guides {
+  padding-top: 60px;
+  padding-bottom: 240px;
+  @include min-screen(280px,430px){
+    padding: 30px 15px 30px 15px;
+  }
+  @include min-screen(390px,430px){
+    padding: 40px 15px 60px 15px;
+  }
+  @include min-screen(540px,1000px){
+    padding-bottom: 140px;
+  }
+  .guides_text{
+    max-width: 1064px;
+    margin: auto;
+    text-align: center;
+    @include min-screen(540px,767px){
+      max-width: 500px;
+    }
+    h3{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      color: $main_color;
+      &:first-of-type{
+        margin-bottom: 27px;
+      }
+      &:last-of-type{
+        margin-bottom: 52px;
+      }
+      @include min-screen(280px,430px){
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 21px;
+        &:first-of-type{
+          margin-bottom: 16px;
+        }
+        &:last-of-type{
+          margin-bottom: 30px;
+        }
+      }
+      @include min-screen(360px,430px){
+        font-size: 21px;
+        line-height: 25px;
+      }
+      @include min-screen(390px,430px){
+        font-size: 25px;
+        line-height: 28px;
+        &:first-of-type{
+          margin-bottom: 27px;
+        }
+        &:last-of-type{
+          margin-bottom: 38px;
+        }
+      }
+    }
+    }
+    p{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      color: $main_color;
+      &:first-of-type{
+        max-width: 632px;
+        padding-bottom: 47px;
+        margin: auto;
+      }
+      &:last-of-type{
+        margin-bottom: 88px;
+      }
+      @include min-screen(280px,430px){
+        font-size: 11px;
+        line-height: 13px;
+        &:first-of-type{
+          padding-bottom: 28px;
+        }
+        &:last-of-type{
+          margin-bottom: 35px;
+        }
+      }
+      @include min-screen(360px,430px){
+        font-size: 14px;
+        line-height: 18px;
+      }
+      @include min-screen(390px,430px){
+        font-size: 16px;
+        line-height: 20px;
+        &:last-of-type{
+          margin-bottom: 50px;
+        }
+      }
+      @include min-screen(428px,430px){
+        &:first-of-type{
+          display: block;
+          max-width: 360px;
+        }
+      }
+      @include min-screen(540px,1000px){
+        font-size: 20px;
+      }
+    }
+  }
+  .guides_img{
+    @include min-screen(280px,1024px){
+      padding: 0;
+    }
+    .img_cont{
+      max-width: 314px;
+      text-align: center;
+      margin: auto;
+      @include min-screen(280px,430px){
+        max-width: 214px;
+      }
+      @include min-screen(360px,430px){
+        max-width: 224px;
+      }
+      @include min-screen(390px,430px){
+        max-width: 260px;
+      }
+      @include min-screen(428px,430px){
+        max-width: 314px;
+      }
+      h4{
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        color: $main_color;
+        max-width: 155px;
+        margin: auto;
+        padding-bottom: 17px;
+        @include min-screen(280px,430px){
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 14px;
+          padding-bottom: 10px;
+        }
+        @include min-screen(390px,430px){
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 20px;
+          padding-bottom: 17px;
+        }
+      }
+      p{
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        color: $main_color;
+        margin-bottom: 10px;
+        @include min-screen(280px,430px){
+          font-size: 10px;
+          line-height: 10px;
+        }
+        @include min-screen(390px,430px){
+          font-size: 17px;
+          line-height: 20px;
+        }
+      }
+      a{
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        text-decoration-line: underline;
+        color: $main_color;
+        padding-bottom: 8px;
+        @include min-screen(280px,430px){
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 10px;
+          padding-bottom: 0;
+        }
+        @include min-screen(390px,430px){
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 20px;
+          padding-bottom: 8px;
+        }
+      }
+    }
+  }
+  .owl-carousel{
+    .owl-nav{
+      .owl-prev{
+        position: absolute;
+        left: -46px;
+        top: 30%;
+        @include min-screen(280px,430px){
+          left: 0;
+        }
+        @include min-screen(320px,430px){
+          left: 15px;
+        }
+        @include min-screen(540px,767px){
+          left: 50px;
+        }
+        @include min-screen(768px,799px){
+          left: 5px;
+        }
+        @include min-screen(800px,1000px){
+          left: 20px;
+        }
+        @include min-screen(1000px,1024px){
+          left: 20px;
+          top: 70%
+        }
+        &:before{
+          content: "\f053";
+          font-family: "Font Awesome 6 Free";
+          font-weight: 900;
+          font-size: 50px;
+          color: black;
+          @include min-screen(280px,430px){
+            font-weight: 700;
+            font-size: 25px;
+          }
+          @include min-screen(428px,430px){
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+

@@ -1,0 +1,25 @@
+.people {
+  background: rgba(204, 204, 204, 0.3); }
+  .people .for_img {
+    max-width: 385px;
+    margin-right: 50px; }
+  .people .description {
+    max-width: 498px; }
+    .people .description h3 {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      color: #000000;
+      padding-bottom: 31px; }
+    .people .description p {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 42px;
+      color: #000000;
+      padding-bottom: 40px; }
+
+/*# sourceMappingURL=people_culture_power.css.map */

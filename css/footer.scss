@@ -1,0 +1,98 @@
+@import "variables";
+
+footer{
+  padding-top: 51px;
+  padding-bottom: 45px;
+  background: #020202;
+  .footer_cont{
+    margin: auto;
+    max-width: 1144px;
+    @include min-screen(280px,767px){
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    @include min-screen(540px,799px){
+      flex-wrap: nowrap;
+    }
+    @include min-screen(768px,799px){
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+  }
+  .footer_logo{
+    max-width: 487px;
+    @include min-screen(280px,430px){
+      padding-bottom: 30px;
+    }
+    @include min-screen(540px,799px){
+      margin-bottom: 20px;
+    }
+    .logo_img{
+      margin-left: 25px;
+      @include min-screen(280px,799px){
+        margin-left: 0;
+      }
+    }
+    .icon{
+      max-width: 115px;
+      margin-left: 29px;
+      padding-top: 45px;
+      @include min-screen(280px,799px){
+        margin-left: 0;
+      }
+      ul{
+        justify-content: space-between;
+      }
+    }
+  }
+  .navigation {
+    max-width: 430px;
+    .about, .contacts {
+      width: 215px;
+      text-decoration: none;
+      @include min-screen(280px,430px){
+        width: 130px;
+      }
+      @include min-screen(320px,430px){
+        width: 150px;
+      }
+      ul {
+        list-style: none;
+        padding-left: 25px;
+        @include min-screen(280px,430px){
+          .about ul {
+            padding-left: 5px;
+          }
+          .contacts ul{
+            padding-left: 0;
+            text-align: end;
+            padding-right: 5px;
+          }
+        }
+        li{
+          font-family: $main_font;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: $white_color;
+          padding-bottom: 12px;
+          &:first-of-type{
+            line-height: 23px;
+            padding-bottom: 36px;
+          }
+        }
+      }
+    }
+  }
+  p{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: $white_color;
+    margin-top: 20px;
+    text-align: center;
+  }
+}

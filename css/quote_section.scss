@@ -1,0 +1,101 @@
+@import "variables";
+
+.quote{
+  background: #F0F0F0;
+  padding-bottom: 52px;
+
+  @include min-screen(280px,799px){
+    .wrap{
+      flex-wrap: wrap;
+    }
+    .container{
+      justify-content: center;
+    }
+  }
+  .quote_text{
+    max-width: 288px;
+    text-align: center;
+    margin-top: -188px;
+    @include min-screen(280px,799px){
+      max-width: 220px;
+      margin-top: -150px;
+      &:last-of-type{
+        margin-top: 0;
+        padding-top: 42px;
+      }
+      &:nth-child(2){
+        margin-top: 0;
+        padding-top: 42px;
+      }
+      @include min-screen(540px,767px){
+        max-width: 288px;
+      }
+      @include min-screen(768px,799px){
+        max-width: 400px;
+        margin-top: -250px;
+      }
+      @include min-screen(800px,1000px){
+        max-width: 250px;
+      }
+    }
+    img{
+      display: block;
+      width: 100%;
+    }
+    h4{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      letter-spacing: 0.6px;
+      color: $main_color;
+      padding-bottom: 40px;
+      padding-top: 35px;
+      @include min-screen(280px,430px){
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+      }
+    }
+    p{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 22px;
+      color: $main_color;
+      padding-bottom: 44px;
+      @include min-screen(280px,430px){
+        font-size: 14px;
+        line-height: 15px;
+        padding-bottom: 24px;
+      }
+      span{
+        font-size: 20px;
+        line-height: 23px;
+        display: block;
+        @include min-screen(280px,430px){
+          font-size: 15px;
+          line-height: 16px;
+        }
+      }
+    }
+    a{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      text-decoration-line: underline;
+      color: $main_color;
+      @include min-screen(280px,430px){
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 14px;
+      }
+    }
+  }
+}

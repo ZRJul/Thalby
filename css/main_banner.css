@@ -1,0 +1,14 @@
+.main_banner {
+  padding: 90px 0;
+  background-color: #F0EFEB;
+  position: relative; }
+  .main_banner h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px; }
+
+/*# sourceMappingURL=main_banner.css.map */

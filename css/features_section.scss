@@ -1,0 +1,184 @@
+@import "variables";
+
+.features{
+  padding-top: 190px;
+  padding-bottom: 290px;
+  @include min-screen(280px,430px){
+    padding-top: 90px;
+    padding-bottom: 190px;
+  }
+  .features_cont{
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+    h3{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 42px;
+      color: $main_color;
+      padding-bottom: 69px;
+      @include min-screen(280px,430px){
+        font-size: 18px;
+        line-height: 21px;
+        padding-bottom: 49px;
+      }
+      @include min-screen(390px,430px){
+        font-size: 26px;
+        line-height: 28px;
+      }
+    }
+  }
+  .circle_cont {
+    max-width: 1088px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-bottom: 52px;
+    @include min-screen(280px,799px){
+      justify-content: center;
+      padding-bottom: 32px;
+    }
+    @include min-screen(540px,799px){
+      padding-bottom: 52px;
+    }
+    @include min-screen(800px,1000px){
+      justify-content: center;
+    }
+
+    .general {
+      width: 338px;
+      padding-bottom: 111px;
+
+      @include min-screen(280px,430px){
+        width: 130px;
+        padding-bottom: 60px;
+      }
+      @include min-screen(320px,430px){
+        width: 150px;
+      }
+      @include min-screen(540px,799px){
+        width: 260px;
+        padding-bottom: 91px;
+      }
+      @include min-screen(768px,799px){
+        width: 250px;
+      }
+      @include min-screen(800px,1000px){
+        width: 270px;
+      }
+    }
+
+    p {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 35px;
+      color: $main_color;
+      @include min-screen(280px,430px){
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 17px;
+      }
+
+      &:before {
+        content: "";
+        display: block;
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        position: relative;
+        margin-bottom: 26px;
+        margin-left: 134px;
+        @include min-screen(280px,430px){
+          width: 45px;
+          height: 45px;
+          margin-bottom: 20px;
+          margin-left: 43px;
+        }
+        @include min-screen(320px,430px){
+          margin-left: 52px;
+        }
+        @include min-screen(540px,799px){
+          margin-left: 94px;
+        }
+        @include min-screen(800px,1000px){
+          margin-left: 100px;
+        }
+      }
+    }
+  }
+  .circle1{
+    p{
+      &:before{
+        background: #21F7EC;
+      }
+    }
+  }
+  .circle2{
+    p{
+      &:before{
+        background: #33D3BC;
+      }
+    }
+  }
+  .circle3{
+    p{
+      &:before{
+        background: #18A5C6;
+      }
+    }
+  }
+  .circle4{
+    p{
+      &:before{
+        background: #D38F62;
+      }
+    }
+  }
+  .circle5{
+    p{
+      &:before{
+        background: #F94C43;
+      }
+    }
+  }
+  .circle6{
+    p{
+      &:before{
+        background: #D399FF;
+      }
+    }
+  }
+
+  .features_text{
+    max-width: 705px;
+    margin: auto;
+    @include min-screen(412px,430px){
+      max-width: 400px;
+    }
+    h2{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      color: $main_color;
+      @include min-screen(280px,430px){
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        padding: 0 10px;
+      }
+      @include min-screen(360px,430px){
+        font-size: 21px;
+        line-height: 25px;
+      }
+      @include min-screen(393px,430px){
+        font-size: 23px;
+        line-height: 27px;
+      }
+    }
+  }
+}

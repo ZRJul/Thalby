@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  margin: auto;
+  max-width: 1064px; }
+
+.d-flex {
+  display: flex; }
+
+.d-blocK {
+  display: block; }
+
+.justify-between {
+  justify-content: space-between; }
+
+.justify-end {
+  justify-content: flex-end; }
+
+.align-centre {
+  align-items: center; }
+
+/*# sourceMappingURL=global_style.css.map */

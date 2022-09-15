@@ -1,0 +1,20 @@
+$main_font:'Roboto', sans-serif;
+$white_color:#FFF;
+$main_color:#000000;
+
+
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
+
+@mixin min-screen($min, $max)
+{
+  @media screen and (min-width: $min) and (max-width: $max)
+  {
+    @content;
+  }
+}

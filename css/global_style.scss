@@ -1,0 +1,56 @@
+@import "variables";
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 1064px;
+  @include max-screen(430px){
+    padding: 0 15px;
+  }
+  @include min-screen(540px,1024px){
+    padding: 0 20px;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-blocK{
+  display: block;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-centre{
+  align-items: center;
+}
+
+.pad1{
+  padding-bottom: 27px;
+}
+.pad2{
+  padding-bottom: 20px;
+}
+.pad3{
+  padding-bottom: 19px;
+}
+.padding {
+  padding-top: 76px;
+  padding-bottom: 51px;
+  @include min-screen(280px,430px){
+    padding-top: 56px;
+    padding-bottom: 31px;
+  }
+}
+
+
