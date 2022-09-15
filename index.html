@@ -6,19 +6,19 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thalby</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style_preproc.css">
+
+
 
 </head>
-<body>
+
+<body class="light">
 
 <div id="dialog" title="search here...">
     <form action="#" method="post" target="_blank" name="search" class="dialog">
@@ -29,26 +29,18 @@
 </div>
 
 
-
 <header>
-
-    <div class="container d-flex justify-between align-centre">
-        <nav>
-            <ul class="d-flex align-centre">
-                <li>
-                    <a href="">Shop</a>
-                </li>
-                <li>
-                    <a href="">Collections</a>
-                </li>
-                <li>
-                    <a href="">Try a Free Guide</a>
-                </li>
-                <li>
-                    <a href="">Stories</a>
-                </li>
-            </ul>
-        </nav>
+    <div class="header-wrapper container d-flex justify-between align-centre">
+        <div class="nav">
+            <nav class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Shop</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Collections</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Try a Free Guide</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Stories</a></li>
+                </ul>
+            </nav>
+        </div>
         <a href="#" class="logo">
             <img src="image/logo.svg" alt="logo">
         </a>
@@ -61,7 +53,7 @@
             <li>
                 <button id="opener">
                     <a href="#">
-                        <img src="image/search.svg" alt="search">
+                        <img src="image/search.svg"alt="search">
                     </a>
                 </button>
             </li>
@@ -71,8 +63,19 @@
                 </a>
             </li>
         </ul>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
+
     </div>
 </header>
+
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
 
 <section class="main_banner">
     <div class="container">
@@ -229,7 +232,7 @@
         </div>
 
         <form action="#" method="post" class="form_cont">
-            <div class="name d-flex wrap">
+            <div class="name d-flex">
                 <label for="first_name"></label>
                 <input id="first_name" type="text" name="first_name" placeholder="First Name">
                 <label for="second_name"></label>
@@ -246,7 +249,7 @@
 </section>
 
 <footer>
-    <div class="footer_cont d-flex justify-between wrap">
+    <div class="footer_cont d-flex justify-between">
         <div class="footer_logo">
             <a href="#" class="logo_img">
                 <img src="image/footer-logo.svg" alt="logo">
@@ -285,7 +288,6 @@
                     <li>Email hi@thalby.com</li>
                     <li>Help</li>
                 </ul>
-
             </div>
         </div>
     </div>
